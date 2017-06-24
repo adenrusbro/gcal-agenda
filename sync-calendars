@@ -1,12 +1,17 @@
 #!/bin/bash
+
 # sync-calendars, by Nik Reiman, nik.reiman@gmail.com
+
 # Script to sync all events from a google account to your local machine for faster processing
 
 # Path to google command line tool. For more info, see:
+
 # http://code.google.com/p/googlecl/
 googleCli="/usr/local/bin/google"
+
 # Names of the calendars you want to fetch
 calendars=(Personal Friends "Swedish Holidays" Wrapp)
+
 # Location to store cached calendar files
 cacheLocation=$HOME/Library/Caches/Calendars
 
