@@ -30,5 +30,5 @@ for calendar in "${calendars[@]}" ; do
     mv "/tmp/$calendar" "$cacheLocation/$calendar"
   else
     rm "/tmp/$calendar"
-  fi
+   fi
 done
